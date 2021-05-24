@@ -17,7 +17,8 @@ This system allows to dispense 4 drinks with different flavors and proportions t
 # Necessary materials
 <p> • wooden structure </p>
 
-![wooden structure](https://user-images.githubusercontent.com/80067586/118411440-2b9db600-b65a-11eb-8d56-65c9ba938abd.jpg)
+![wooden structure](https://user-images.githubusercontent.com/80067586/119345046-031b4a80-bc5e-11eb-9c2d-351f99cf705d.jpg)
+
 
 <p> • PIC16F15224</p>
 
@@ -35,7 +36,8 @@ This system allows to dispense 4 drinks with different flavors and proportions t
 
 ![rele](https://user-images.githubusercontent.com/80067586/118411613-fcd40f80-b65a-11eb-9ac9-2d8438e9d4c4.jpg)
 
-<p>• Dc-dc  <a href= "https://articulo.mercadolibre.com.co/MCO-600862443-fuente-dc-dc-lm2596-buck-converter-step-down-3a-voltaje-adj-_JM#position=7&search_layout=stack&type=item&tracking_id=a6d063ee-11fd-44a8-9150-0b5ddeb0d40a" target="_blank">source</a> </p>
+
+<p>• Adapter 12v 1A </p>
 
 ![cargador ](https://user-images.githubusercontent.com/80067586/118411722-a5826f00-b65b-11eb-9d74-4ef92be8d855.jpg)
 
@@ -44,13 +46,13 @@ This system allows to dispense 4 drinks with different flavors and proportions t
 
 ![lcd](https://user-images.githubusercontent.com/80067586/118411657-386ed980-b65b-11eb-9776-75b2dbb37d45.jpg)
 
+<p>• Dc-dc  <a href= "https://articulo.mercadolibre.com.co/MCO-600862443-fuente-dc-dc-lm2596-buck-converter-step-down-3a-voltaje-adj-_JM#position=7&search_layout=stack&type=item&tracking_id=a6d063ee-11fd-44a8-9150-0b5ddeb0d40a" target="_blank">source</a> </p>
+
 <p>• Micro-USB to USB 2.0 cable </p>
 
 <p>• Protoboard </p>
 
 <p>• Jumpers </p>
-
-<p>• Adapter 12v 1A </p>
 
 <p>• Small hose </p>
 
@@ -66,3 +68,5 @@ A glass is placed in the center of the device, then the menu appears on the LCD 
 
 # conclusions
 
+Through the development of this project, it was possible to solve the problem posed, by means of a machine capable of dispensing drinks supported by an LCD screen and buttons, implementing a PIC16F15244 MCU that controls all the processes carried out by the machine and its components.
+Due to the limited pins and the series operation of the MCU, different interruptions were implemented in the time that were achieved with the use of the sequences of the led strips and delays between them.
