@@ -1,6 +1,9 @@
 # COCKTAILS DISPENSER MACHINE
 This project contains all the information to create an intelligent machine capable of dispensing four different cocktails by implementing the Curiosity Nano Development board PIC16F15244 and other electronic components easily available.
 
+# What's the use?
+This system allows to dispense 4 drinks with different flavors and proportions that can be displayed on a 20x4 LCD screen by means of buttons, the preferred choice is made.
+
 #  Information about PIC16F15244
 <p> •<a href= "https://www.microchip.com/wwwproducts/en/PIC16F15244"  target="_blank">PIC16F15244 </a> </p>
 <p>• <a href= "http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16F15244-Curiosity-Nano-Hardware-User-Guide-DS50003045A.pdf"  target="_blank">Curiosity-Nano-Hardware-User-Guide</a>  </p>
@@ -53,10 +56,13 @@ This project contains all the information to create an intelligent machine capab
 
 <p>• Push button </p>
 
+# How to install it?
 
+For its installation, 4 different beverage bottles are required, which are located at the back of the machine with suction hoses. Then, it is necessary to supply power through a 12V charger in this way the LCD screen and the buttons ready for selection are initialized.
 
+# How to use?
 
+A glass is placed in the center of the device, then the menu appears on the LCD and a drink is selected using the buttons. Pressing a button will turn on a suction motor for a certain liquid and in turn a sequence of LEDs with a certain waiting time; then another motor of the complementary liquid is activated and its respective waiting sequence. And in this way the drink falls into a glass located in the center and a message will appear on the LCD screen to remove the glass.
 
-
-
+# conclusions
 
