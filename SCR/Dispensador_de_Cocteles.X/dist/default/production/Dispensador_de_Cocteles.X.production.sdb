@@ -1,0 +1,325 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F15244 ]
+[d frameptr 6 ]
+"53 C:\Users\FAMILIA JIMENEZ\Desktop\Dispensador_de_Cocteles.X/flex_lcd.h
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+"116
+[v _Lcd_Out2 Lcd_Out2 `(v  1 e 1 0 ]
+"137
+[v _Lcd_Chr_CP Lcd_Chr_CP `(v  1 e 1 0 ]
+"151
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"692 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"93 C:\Users\FAMILIA JIMENEZ\Desktop\Dispensador_de_Cocteles.X\main.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"128
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"144
+[v _saludo saludo `(v  1 e 1 0 ]
+"170
+[v _despedida despedida `(v  1 e 1 0 ]
+"186
+[v _menu menu `(v  1 e 1 0 ]
+"204
+[v _secuencias_leds secuencias_leds `(v  1 e 1 0 ]
+"334
+[v _secuencias_leds3 secuencias_leds3 `(v  1 e 1 0 ]
+"414
+[v _secuencias_leds4 secuencias_leds4 `(v  1 e 1 0 ]
+"474
+[v _coctel_1 coctel_1 `(v  1 e 1 0 ]
+"499
+[v _coctel_2 coctel_2 `(v  1 e 1 0 ]
+"523
+[v _coctel_3 coctel_3 `(v  1 e 1 0 ]
+"547
+[v _coctel_4 coctel_4 `(v  1 e 1 0 ]
+"574
+[v _main main `(v  1 e 1 0 ]
+[s S79 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"511 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16f15244.h
+[u S85 . 1 `S79 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES85  1 e 1 @13 ]
+[s S58 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"553
+[u S67 . 1 `S58 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES67  1 e 1 @14 ]
+"598
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"648
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+[s S43 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"662
+[u S49 . 1 `S43 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES49  1 e 1 @19 ]
+"687
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+[s S22 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"704
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES31  1 e 1 @20 ]
+"749
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+[s S133 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"764
+[u S140 . 1 `S133 1 . 1 0 ]
+[v _LATAbits LATAbits `VES140  1 e 1 @24 ]
+"799
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+[s S150 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"813
+[u S156 . 1 `S150 1 . 1 0 ]
+[v _LATBbits LATBbits `VES156  1 e 1 @25 ]
+"838
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+"5793
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"5833
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"5891
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"8094
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"8189
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"8234
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"8279
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"8791
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"8915
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"8977
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"9039
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"55 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"85 C:\Users\FAMILIA JIMENEZ\Desktop\Dispensador_de_Cocteles.X\main.c
+[v _s s `[20]uc  1 e 20 0 ]
+"574
+[v _main main `(v  1 e 1 0 ]
+{
+"614
+} 0
+"144
+[v _saludo saludo `(v  1 e 1 0 ]
+{
+"167
+} 0
+"186
+[v _menu menu `(v  1 e 1 0 ]
+{
+"199
+} 0
+"170
+[v _despedida despedida `(v  1 e 1 0 ]
+{
+"183
+} 0
+"547
+[v _coctel_4 coctel_4 `(v  1 e 1 0 ]
+{
+"568
+} 0
+"523
+[v _coctel_3 coctel_3 `(v  1 e 1 0 ]
+{
+"544
+} 0
+"499
+[v _coctel_2 coctel_2 `(v  1 e 1 0 ]
+{
+"520
+} 0
+"204
+[v _secuencias_leds secuencias_leds `(v  1 e 1 0 ]
+{
+"206
+[v secuencias_leds@i i `i  1 a 2 1 ]
+"280
+} 0
+"474
+[v _coctel_1 coctel_1 `(v  1 e 1 0 ]
+{
+"496
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@s s `*.4uc  1 a 1 wreg ]
+[s S599 _IO_FILE 5 `*.4uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
+"13
+[v sprintf@f f `S599  1 a 5 14 ]
+"12
+[v sprintf@ap ap `[1]*.4v  1 a 1 13 ]
+"9
+[v sprintf@s s `*.4uc  1 a 1 wreg ]
+[v sprintf@fmt fmt `*.25DCuc  1 p 2 10 ]
+"15
+[v sprintf@s s `*.4uc  1 a 1 19 ]
+"23
+} 0
+"1390 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+[s S625 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.4S625  1 a 1 wreg ]
+"1393
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 8 ]
+"1390
+[v vfprintf@fp fp `*.4S625  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.25DCuc  1 p 2 11 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 13 ]
+"1395
+"1390
+[v vfprintf@fp fp `*.4S625  1 a 1 7 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+[s S625 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.4S625  1 a 1 wreg ]
+[v vfpfcnvrt@fp fp `*.4S625  1 a 1 wreg ]
+[v vfpfcnvrt@fmt fmt `*.4*.25uc  1 p 1 8 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 9 ]
+"702
+"692
+[v vfpfcnvrt@fp fp `*.4S625  1 a 1 10 ]
+"1387
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[s S599 _IO_FILE 5 `*.4uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
+[v fputc@fp fp `*.4S599  1 p 1 2 ]
+"24
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"414 C:\Users\FAMILIA JIMENEZ\Desktop\Dispensador_de_Cocteles.X\main.c
+[v _secuencias_leds4 secuencias_leds4 `(v  1 e 1 0 ]
+{
+"416
+[v secuencias_leds4@i i `i  1 a 2 1 ]
+"468
+} 0
+"334
+[v _secuencias_leds3 secuencias_leds3 `(v  1 e 1 0 ]
+{
+"336
+[v secuencias_leds3@i i `i  1 a 2 1 ]
+"411
+} 0
+"116 C:\Users\FAMILIA JIMENEZ\Desktop\Dispensador_de_Cocteles.X/flex_lcd.h
+[v _Lcd_Out2 Lcd_Out2 `(v  1 e 1 0 ]
+{
+[v Lcd_Out2@y y `uc  1 a 1 wreg ]
+"118
+[v Lcd_Out2@data data `uc  1 a 1 8 ]
+"116
+[v Lcd_Out2@y y `uc  1 a 1 wreg ]
+[v Lcd_Out2@x x `uc  1 p 1 3 ]
+[v Lcd_Out2@buffer buffer `*.4uc  1 p 1 4 ]
+[v Lcd_Out2@y y `uc  1 a 1 7 ]
+"134
+} 0
+"137
+[v _Lcd_Chr_CP Lcd_Chr_CP `(v  1 e 1 0 ]
+{
+[v Lcd_Chr_CP@data data `uc  1 a 1 wreg ]
+[v Lcd_Chr_CP@data data `uc  1 a 1 wreg ]
+[v Lcd_Chr_CP@data data `uc  1 a 1 2 ]
+"148
+} 0
+"93 C:\Users\FAMILIA JIMENEZ\Desktop\Dispensador_de_Cocteles.X\main.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"126
+} 0
+"128
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"133
+} 0
+"53 C:\Users\FAMILIA JIMENEZ\Desktop\Dispensador_de_Cocteles.X/flex_lcd.h
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+{
+"54
+[v Lcd_Init@data data `uc  1 a 1 4 ]
+"92
+} 0
+"151
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd_Cmd@data data `uc  1 a 1 wreg ]
+[v Lcd_Cmd@data data `uc  1 a 1 wreg ]
+[v Lcd_Cmd@data data `uc  1 a 1 2 ]
+"162
+} 0
