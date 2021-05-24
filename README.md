@@ -66,7 +66,12 @@ For its installation, 4 different beverage bottles are required, which are locat
 
 A glass is placed in the center of the device, then the menu appears on the LCD and a drink is selected using the buttons. Pressing a button will turn on a suction motor for a certain liquid and in turn a sequence of LEDs with a certain waiting time; then another motor of the complementary liquid is activated and its respective waiting sequence. And in this way the drink falls into a glass located in the center and a message will appear on the LCD screen to remove the glass.
 
-# conclusions
+# Conclusions
 
 Through the development of this project, it was possible to solve the problem posed, by means of a machine capable of dispensing drinks supported by an LCD screen and buttons, implementing a PIC16F15244 MCU that controls all the processes carried out by the machine and its components.
 Due to the limited pins and the series operation of the MCU, different interruptions were implemented in the time that were achieved with the use of the sequences of the led strips and delays between them.
+
+# Schematic circuit
+
+![Schematic circuit](https://user-images.githubusercontent.com/80067586/119347070-9eadba80-bc60-11eb-882d-6c8f73d66ce2.png)
+
