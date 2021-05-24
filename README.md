@@ -1,4 +1,4 @@
-# Dispensador-de-cocteles
+# COCKTAILS DISPENSER MACHINE
 This project contains all the information to create an intelligent machine capable of dispensing four different cocktails by implementing the Curiosity Nano Development board PIC16F15244 and other electronic components easily available.
 
 #  Information about PIC16F15244
